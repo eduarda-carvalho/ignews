@@ -12,7 +12,7 @@ export default function Home() {
         <section className={styles.hero}>
           <span>👏Hey, welcome</span>
           <h1>
-            News about <span>Develop Branch</span> world.
+            News about <span>Teste Bugfix</span> world.
           </h1>
           <p>
             Get acess to all the publication <br />
@@ -24,4 +24,5 @@ export default function Home() {
       </main>
     </>
   );
+  0;
 }
