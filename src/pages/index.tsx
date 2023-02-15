@@ -12,7 +12,7 @@ export default function Home() {
         <section className={styles.hero}>
           <span>👏Hey, welcome</span>
           <h1>
-            News about <span>Teste</span> world.
+            News about <span>Reage</span> world.
           </h1>
           <p>
             Get acess to all the publication <br />
