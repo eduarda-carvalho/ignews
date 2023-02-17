@@ -24,10 +24,12 @@ export async function saveSubscription(
   };
 
   if (createAction) {
+    console.log("createAction:", createAction);
     await fauna.query(
       q.Create(q.Collection("subscriptions"), { data: subscriptionData })
     );
   } else {
+    console.log("createAction é false:", createAction);
     await fauna.query(
       q.Replace(
         q.Select(

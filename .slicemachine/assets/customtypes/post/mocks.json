@@ -1,0 +1,28 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "tone"
+  },
+  "title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Aute et id cillum ullamco Lorem. Id voluptate eiusmod tempor tempor reprehenderit mollit aliquip tempor commodo minim non irure irure veniam. Nostrud dolore fugiat proident esse aliqua ipsum nisi incididunt ullamco aliqua."
+        }
+      }
+    ]
+  },
+  "content": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Occaecat tempor aute irure esse ut laborum dolore do qui. Anim officia aliquip voluptate."
+        }
+      }
+    ]
+  }
+}
