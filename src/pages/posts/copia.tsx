@@ -1,4 +1,4 @@
-import { getPrismicClient } from '@/services/prismic';
+import { getPrismicClient } from 'src/services/prismic';
 import { GetServerSideProps } from 'next';
 import { getSession } from 'next-auth/react';
 import Head from 'next/head';
@@ -47,7 +47,6 @@ export const getServerSideProps: GetServerSideProps = async ({
 }) => {
   const session = await getSession({ req });
 
-  console.log(session, 'session');
   const { slug } = params as IParams;
   console.log('params', slug);
 
@@ -75,3 +74,14 @@ export const getServerSideProps: GetServerSideProps = async ({
     },
   };
 };
+// router.push({
+//   pathname:'/posts/copia/',
+//   query:{
+//    time: post.updatedAt,
+//    strong: post.title,
+//    post:post.excerpt
+//   },
+// },
+// pathname,{
+//   shallow: true
+// })
